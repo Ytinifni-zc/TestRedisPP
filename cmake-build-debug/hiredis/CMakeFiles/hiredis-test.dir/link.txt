@@ -1,0 +1,1 @@
+/usr/local/bin/gcc-9 -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/hiredis-test.dir/test.c.o  -o hiredis-test  -Wl,-rpath,/Users/inFinity/Workspace/TestRedis/cmake-build-debug/hiredis libhiredisd.1.0.1-dev.dylib 

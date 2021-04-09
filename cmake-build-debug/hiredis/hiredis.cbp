@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="hiredis"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\hiredis\;CMake Files\redis-plus-plus\;CMake Files\redis-plus-plus\cmake\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/inFinity/Workspace/TestRedis/cmake-build-debug/hiredis"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/inFinity/Workspace/TestRedis/cmake-build-debug/hiredis/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/inFinity/Workspace/TestRedis/cmake-build-debug/hiredis/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/inFinity/Workspace/TestRedis/cmake-build-debug/hiredis/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/inFinity/Workspace/TestRedis/cmake-build-debug/hiredis/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="hiredis">
+				<Option output="/Users/inFinity/Workspace/TestRedis/cmake-build-debug/hiredis/libhiredisd.dylib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/inFinity/Workspace/TestRedis/cmake-build-debug/hiredis"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/inFinity/Workspace/TestRedis/hiredis"/>
+					<Add directory="/usr/local/Cellar/gcc/9.3.0/lib/gcc/9/gcc/x86_64-apple-darwin19/9.3.0/../../../../../../include/c++/9.3.0"/>
+					<Add directory="/usr/local/Cellar/gcc/9.3.0/lib/gcc/9/gcc/x86_64-apple-darwin19/9.3.0/../../../../../../include/c++/9.3.0/x86_64-apple-darwin19"/>
+					<Add directory="/usr/local/Cellar/gcc/9.3.0/lib/gcc/9/gcc/x86_64-apple-darwin19/9.3.0/../../../../../../include/c++/9.3.0/backward"/>
+					<Add directory="/usr/local/Cellar/gcc/9.3.0/lib/gcc/9/gcc/x86_64-apple-darwin19/9.3.0/include"/>
+					<Add directory="/usr/local/Cellar/gcc/9.3.0/lib/gcc/9/gcc/x86_64-apple-darwin19/9.3.0/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/inFinity/Workspace/TestRedis/cmake-build-debug/hiredis/Makefile&quot;  VERBOSE=1 hiredis"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/inFinity/Workspace/TestRedis/cmake-build-debug/hiredis/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/inFinity/Workspace/TestRedis/cmake-build-debug/hiredis/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/inFinity/Workspace/TestRedis/cmake-build-debug/hiredis/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="hiredis/fast">
+				<Option output="/Users/inFinity/Workspace/TestRedis/cmake-build-debug/hiredis/libhiredisd.dylib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/inFinity/Workspace/TestRedis/cmake-build-debug/hiredis"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/inFinity/Workspace/TestRedis/hiredis"/>
+					<Add directory="/usr/local/Cellar/gcc/9.3.0/lib/gcc/9/gcc/x86_64-apple-darwin19/9.3.0/../../../../../../include/c++/9.3.0"/>
+					<Add directory="/usr/local/Cellar/gcc/9.3.0/lib/gcc/9/gcc/x86_64-apple-darwin19/9.3.0/../../../../../../include/c++/9.3.0/x86_64-apple-darwin19"/>
+					<Add directory="/usr/local/Cellar/gcc/9.3.0/lib/gcc/9/gcc/x86_64-apple-darwin19/9.3.0/../../../../../../include/c++/9.3.0/backward"/>
+					<Add directory="/usr/local/Cellar/gcc/9.3.0/lib/gcc/9/gcc/x86_64-apple-darwin19/9.3.0/include"/>
+					<Add directory="/usr/local/Cellar/gcc/9.3.0/lib/gcc/9/gcc/x86_64-apple-darwin19/9.3.0/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/inFinity/Workspace/TestRedis/cmake-build-debug/hiredis/Makefile&quot;  VERBOSE=1 hiredis/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/inFinity/Workspace/TestRedis/cmake-build-debug/hiredis/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/inFinity/Workspace/TestRedis/cmake-build-debug/hiredis/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/inFinity/Workspace/TestRedis/cmake-build-debug/hiredis/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="hiredis-test">
+				<Option output="/Users/inFinity/Workspace/TestRedis/cmake-build-debug/hiredis/hiredis-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/inFinity/Workspace/TestRedis/cmake-build-debug/hiredis"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/inFinity/Workspace/TestRedis/hiredis"/>
+					<Add directory="/usr/local/Cellar/gcc/9.3.0/lib/gcc/9/gcc/x86_64-apple-darwin19/9.3.0/../../../../../../include/c++/9.3.0"/>
+					<Add directory="/usr/local/Cellar/gcc/9.3.0/lib/gcc/9/gcc/x86_64-apple-darwin19/9.3.0/../../../../../../include/c++/9.3.0/x86_64-apple-darwin19"/>
+					<Add directory="/usr/local/Cellar/gcc/9.3.0/lib/gcc/9/gcc/x86_64-apple-darwin19/9.3.0/../../../../../../include/c++/9.3.0/backward"/>
+					<Add directory="/usr/local/Cellar/gcc/9.3.0/lib/gcc/9/gcc/x86_64-apple-darwin19/9.3.0/include"/>
+					<Add directory="/usr/local/Cellar/gcc/9.3.0/lib/gcc/9/gcc/x86_64-apple-darwin19/9.3.0/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/inFinity/Workspace/TestRedis/cmake-build-debug/hiredis/Makefile&quot;  VERBOSE=1 hiredis-test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/inFinity/Workspace/TestRedis/cmake-build-debug/hiredis/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/inFinity/Workspace/TestRedis/cmake-build-debug/hiredis/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/inFinity/Workspace/TestRedis/cmake-build-debug/hiredis/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="hiredis-test/fast">
+				<Option output="/Users/inFinity/Workspace/TestRedis/cmake-build-debug/hiredis/hiredis-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/inFinity/Workspace/TestRedis/cmake-build-debug/hiredis"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/inFinity/Workspace/TestRedis/hiredis"/>
+					<Add directory="/usr/local/Cellar/gcc/9.3.0/lib/gcc/9/gcc/x86_64-apple-darwin19/9.3.0/../../../../../../include/c++/9.3.0"/>
+					<Add directory="/usr/local/Cellar/gcc/9.3.0/lib/gcc/9/gcc/x86_64-apple-darwin19/9.3.0/../../../../../../include/c++/9.3.0/x86_64-apple-darwin19"/>
+					<Add directory="/usr/local/Cellar/gcc/9.3.0/lib/gcc/9/gcc/x86_64-apple-darwin19/9.3.0/../../../../../../include/c++/9.3.0/backward"/>
+					<Add directory="/usr/local/Cellar/gcc/9.3.0/lib/gcc/9/gcc/x86_64-apple-darwin19/9.3.0/include"/>
+					<Add directory="/usr/local/Cellar/gcc/9.3.0/lib/gcc/9/gcc/x86_64-apple-darwin19/9.3.0/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/inFinity/Workspace/TestRedis/cmake-build-debug/hiredis/Makefile&quot;  VERBOSE=1 hiredis-test/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/inFinity/Workspace/TestRedis/cmake-build-debug/hiredis/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/inFinity/Workspace/TestRedis/cmake-build-debug/hiredis/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/inFinity/Workspace/TestRedis/cmake-build-debug/hiredis/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="hiredis_static">
+				<Option output="/Users/inFinity/Workspace/TestRedis/cmake-build-debug/hiredis/libhiredis_staticd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/inFinity/Workspace/TestRedis/cmake-build-debug/hiredis"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/inFinity/Workspace/TestRedis/hiredis"/>
+					<Add directory="/usr/local/Cellar/gcc/9.3.0/lib/gcc/9/gcc/x86_64-apple-darwin19/9.3.0/../../../../../../include/c++/9.3.0"/>
+					<Add directory="/usr/local/Cellar/gcc/9.3.0/lib/gcc/9/gcc/x86_64-apple-darwin19/9.3.0/../../../../../../include/c++/9.3.0/x86_64-apple-darwin19"/>
+					<Add directory="/usr/local/Cellar/gcc/9.3.0/lib/gcc/9/gcc/x86_64-apple-darwin19/9.3.0/../../../../../../include/c++/9.3.0/backward"/>
+					<Add directory="/usr/local/Cellar/gcc/9.3.0/lib/gcc/9/gcc/x86_64-apple-darwin19/9.3.0/include"/>
+					<Add directory="/usr/local/Cellar/gcc/9.3.0/lib/gcc/9/gcc/x86_64-apple-darwin19/9.3.0/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/inFinity/Workspace/TestRedis/cmake-build-debug/hiredis/Makefile&quot;  VERBOSE=1 hiredis_static"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/inFinity/Workspace/TestRedis/cmake-build-debug/hiredis/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/inFinity/Workspace/TestRedis/cmake-build-debug/hiredis/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/inFinity/Workspace/TestRedis/cmake-build-debug/hiredis/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="hiredis_static/fast">
+				<Option output="/Users/inFinity/Workspace/TestRedis/cmake-build-debug/hiredis/libhiredis_staticd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/inFinity/Workspace/TestRedis/cmake-build-debug/hiredis"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/inFinity/Workspace/TestRedis/hiredis"/>
+					<Add directory="/usr/local/Cellar/gcc/9.3.0/lib/gcc/9/gcc/x86_64-apple-darwin19/9.3.0/../../../../../../include/c++/9.3.0"/>
+					<Add directory="/usr/local/Cellar/gcc/9.3.0/lib/gcc/9/gcc/x86_64-apple-darwin19/9.3.0/../../../../../../include/c++/9.3.0/x86_64-apple-darwin19"/>
+					<Add directory="/usr/local/Cellar/gcc/9.3.0/lib/gcc/9/gcc/x86_64-apple-darwin19/9.3.0/../../../../../../include/c++/9.3.0/backward"/>
+					<Add directory="/usr/local/Cellar/gcc/9.3.0/lib/gcc/9/gcc/x86_64-apple-darwin19/9.3.0/include"/>
+					<Add directory="/usr/local/Cellar/gcc/9.3.0/lib/gcc/9/gcc/x86_64-apple-darwin19/9.3.0/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/inFinity/Workspace/TestRedis/cmake-build-debug/hiredis/Makefile&quot;  VERBOSE=1 hiredis_static/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/inFinity/Workspace/TestRedis/cmake-build-debug/hiredis/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/inFinity/Workspace/TestRedis/cmake-build-debug/hiredis/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/inFinity/Workspace/TestRedis/cmake-build-debug/hiredis/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/inFinity/Workspace/TestRedis/hiredis/alloc.c">
+			<Option target="hiredis"/>
+			<Option target="hiredis_static"/>
+		</Unit>
+		<Unit filename="/Users/inFinity/Workspace/TestRedis/hiredis/alloc.h">
+			<Option target="hiredis"/>
+			<Option target="hiredis_static"/>
+		</Unit>
+		<Unit filename="/Users/inFinity/Workspace/TestRedis/hiredis/async.c">
+			<Option target="hiredis"/>
+			<Option target="hiredis_static"/>
+		</Unit>
+		<Unit filename="/Users/inFinity/Workspace/TestRedis/hiredis/async.h">
+			<Option target="hiredis"/>
+			<Option target="hiredis_static"/>
+		</Unit>
+		<Unit filename="/Users/inFinity/Workspace/TestRedis/hiredis/dict.c">
+			<Option target="hiredis"/>
+			<Option target="hiredis_static"/>
+		</Unit>
+		<Unit filename="/Users/inFinity/Workspace/TestRedis/hiredis/dict.h">
+			<Option target="hiredis"/>
+			<Option target="hiredis_static"/>
+		</Unit>
+		<Unit filename="/Users/inFinity/Workspace/TestRedis/hiredis/hiredis.c">
+			<Option target="hiredis"/>
+			<Option target="hiredis_static"/>
+		</Unit>
+		<Unit filename="/Users/inFinity/Workspace/TestRedis/hiredis/hiredis.h">
+			<Option target="hiredis"/>
+			<Option target="hiredis_static"/>
+		</Unit>
+		<Unit filename="/Users/inFinity/Workspace/TestRedis/hiredis/net.c">
+			<Option target="hiredis"/>
+			<Option target="hiredis_static"/>
+		</Unit>
+		<Unit filename="/Users/inFinity/Workspace/TestRedis/hiredis/net.h">
+			<Option target="hiredis"/>
+			<Option target="hiredis_static"/>
+		</Unit>
+		<Unit filename="/Users/inFinity/Workspace/TestRedis/hiredis/read.c">
+			<Option target="hiredis"/>
+			<Option target="hiredis_static"/>
+		</Unit>
+		<Unit filename="/Users/inFinity/Workspace/TestRedis/hiredis/read.h">
+			<Option target="hiredis"/>
+			<Option target="hiredis_static"/>
+		</Unit>
+		<Unit filename="/Users/inFinity/Workspace/TestRedis/hiredis/sds.c">
+			<Option target="hiredis"/>
+			<Option target="hiredis_static"/>
+		</Unit>
+		<Unit filename="/Users/inFinity/Workspace/TestRedis/hiredis/sds.h">
+			<Option target="hiredis"/>
+			<Option target="hiredis_static"/>
+		</Unit>
+		<Unit filename="/Users/inFinity/Workspace/TestRedis/hiredis/sockcompat.c">
+			<Option target="hiredis"/>
+			<Option target="hiredis_static"/>
+		</Unit>
+		<Unit filename="/Users/inFinity/Workspace/TestRedis/hiredis/sockcompat.h">
+			<Option target="hiredis"/>
+			<Option target="hiredis_static"/>
+		</Unit>
+		<Unit filename="/Users/inFinity/Workspace/TestRedis/hiredis/test.c">
+			<Option target="hiredis-test"/>
+		</Unit>
+		<Unit filename="/Users/inFinity/Workspace/TestRedis/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/inFinity/Workspace/TestRedis/hiredis/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\hiredis\"/>
+		</Unit>
+		<Unit filename="/Users/inFinity/Workspace/TestRedis/hiredis/hiredis-config.cmake.in">
+			<Option virtualFolder="CMake Files\hiredis\"/>
+		</Unit>
+		<Unit filename="/Users/inFinity/Workspace/TestRedis/hiredis/hiredis.pc.in">
+			<Option virtualFolder="CMake Files\hiredis\"/>
+		</Unit>
+		<Unit filename="/Users/inFinity/Workspace/TestRedis/redis-plus-plus/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\redis-plus-plus\"/>
+		</Unit>
+		<Unit filename="/Users/inFinity/Workspace/TestRedis/redis-plus-plus/cmake/redis++-config.cmake.in">
+			<Option virtualFolder="CMake Files\redis-plus-plus\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/inFinity/Workspace/TestRedis/redis-plus-plus/cmake/redis++.pc.in">
+			<Option virtualFolder="CMake Files\redis-plus-plus\cmake\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

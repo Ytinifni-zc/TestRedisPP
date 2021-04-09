@@ -1,0 +1,16 @@
+"/Users/inFinity/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.6948.80/CLion.app/Contents/bin/cmake/mac/bin/cmake" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_C_COMPILER=/usr/local/bin/gcc-9 -DCMAKE_CXX_COMPILER=/usr/local/bin/g++-9 -G "CodeBlocks - Unix Makefiles" /Users/inFinity/Workspace/TestRedis
+Detected version: 1.0.1
+-- HIREDIS_HEADER /Users/inFinity/Workspace/TestRedis/hiredis
+-- HIREDIS_LIB hiredis
+-- redis-plus-plus version: 1.2.3
+-- redis-plus-plus build type: Debug
+-- redis-plus-plus build with CXX standard: c++11
+-- redis-plus-plus TLS support: OFF
+-- redis-plus-plus build static library: ON
+-- redis-plus-plus build static library with position independent code: ON
+-- redis-plus-plus build shared library: ON
+-- redis-plus-plus build test: OFF
+-- Debian package name: .deb
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/inFinity/Workspace/TestRedis/cmake-build-debug
